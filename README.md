@@ -4,29 +4,21 @@
 A personal practice project for JavaScript and Jest.  
 🌐 Built for The Odin Project Online Course.
 
----
+## Live Demo
+
+[Play the Game](https://joelbaldapan.github.io/astroarmada-battleship/)  
 
 ## Features
 
 - **Classic Battleship Gameplay**: Place your ships and try to sink the opponent’s fleet.
-- **Futuristic Visuals**: Pixel fonts, custom graphics, and animated effects.
-- **Immersive Audio**: Background music and sound effects for actions.
 - **Adjustable AI Difficulty**: Four AI levels:
   - **Easy**: Random attacks.
   - **Normal**: Attacks adjacent cells after a hit.
   - **Hard**: Checkerboard pattern with adjacent targeting.
   - **Extreme**: Probability map for strategic attacks.
-- **Smart Ship Placement**: Ships can be rotated and placed visually.
 - **Probability & Target Visualizations**: See how the Extreme AI thinks.
 
----
-
 ## Getting Started
-
-### Prerequisites
-
-- [Node.js](https://nodejs.org/) (v14+ recommended)
-- [npm](https://www.npmjs.com/)
 
 ### Installation
 
@@ -68,17 +60,6 @@ index.html           # Main HTML file
 package.json         # Project metadata and scripts
 ```
 
----
-
-## How to Play
-
-1. **Place Your Ships:** Drag and rotate your ships on your board.
-2. **Start the Game:** Select AI difficulty and press "START GAME".
-3. **Attack:** Click cells on the opponent’s board to attack.
-4. **Win:** Sink all enemy ships before yours are sunk!
-
----
-
 ## About the AI
 
 Astro Armada: Battleship features four AI difficulty levels, each with unique strategies:
@@ -111,14 +92,8 @@ You can toggle visualizations in-game to see the Extreme AI’s probability map 
 - The AI logic is implemented in [`playerFactory.js`](src/factories/playerFactory.js) (see the `decideAI` method and the `probabilityAI` class).
 - The game controller coordinates AI moves in [`main.js`](src/main.js).
 
----
-
 ## Credits
 
 - Developed by Joel Baldapan
 - For The Odin Project
 
----
-
-[Play the Game](https://joelbaldapan.github.io/astroarmada-battleship/)  
-[GitHub Repository](https://github.com/joelbaldapan/astroarmada-battleship)
